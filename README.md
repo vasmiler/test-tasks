@@ -18,7 +18,7 @@ vendor\bin\codecept bootstrap
 java -jar selenium-server-standalone-3.141.59.jar
 
 #### run tests:
-vendor\bin\codecept run acceptance -d
+vendor\bin\codecept run acceptance
 
 #### checked with:
 php: PHP 7.3.7
@@ -27,6 +27,6 @@ selenium standalone server: 3.141.59
 
 #### note:
 There is a little offset while getting the screenshot using Visualception
-Probably it is a bug in getting coordinates of an element.
+Probably it is a bug in getting coordinates of an element or my mistake.
 But finally, it's possible to found if the preview is changed.
 In addition, I checked that not changeable area (Yandex logo) is not changed.
