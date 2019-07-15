@@ -11,7 +11,7 @@ php_imagick
 used the instruction for installation: https://herbmiller.me/installing-imagick-php-7/
 
 #### how to install Codeception and Visualception:
-php composer.phar install
+php composer.phar install <br>
 vendor\bin\codecept bootstrap
 
 #### run selenium server:
